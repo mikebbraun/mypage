@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-color: yellow;
+}
+
+.body {
+  margin-top: 60px;
+}
+.signup, .signup_about{
+  border: solid;
+  background-color: lightblue;
+  padding: 1em;
+}
+/*.signup_about {
+  background-color: lightblue;
+  padding: 1em;
+}*/
+
+.login {
+  background-color: lightblue;
+  text-align: center;
+  border: solid;
+}
+
+.posts_index {
+  border: solid;
+  background-color: white;
+  padding: 2em;
+}

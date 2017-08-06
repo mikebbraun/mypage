@@ -3,12 +3,22 @@
   <head>
     <title>Mypage</title>
     <%= csrf_meta_tags %>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js" charset="utf-8"></script>
+    <script src="" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%=  %>
   </head>
 
   <body>
-    <%= yield %>
+    <nav class="nav navbar navbar-default navbar-fixed-top">
+      <%= link_to 'Log out', root_url %>
+      <%= link_to 'Home', new_user_path %>
+    </nav>
+    <div class="body">
+      <%= yield %>
+    </div>
   </body>
 </html>
