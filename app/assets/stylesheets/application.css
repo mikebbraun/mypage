@@ -16,7 +16,14 @@
 body {
   background-color: yellow;
 }
-
+.Home {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.Logout {
+  margin-top: 15px;
+  margin-right: 30px;
+}
 .body {
   margin-top: 60px;
 }
@@ -37,7 +44,8 @@ body {
 }
 
 .posts_index {
-  border: solid;
-  background-color: white;
+  /*border: solid;*/
+  background-color: lightblue;
   padding: 2em;
+  margin-bottom: 25px;
 }
